@@ -1,6 +1,6 @@
 # Get/bill
 
-The GET request is created when the customer requests a bill for their order as shown on the below code snippet. The GET request prompts the system to print the bill. All take out meals are assigned to table `99`. The objects of the oe sippet are explained in the Response Schema.
+The GET request is created when the customer requests a bill for their order as shown on the code snippet below. The GET request prompts the system to print the bill. All take out meals are assigned to table `99`. The objects of the code snippet are explained in the Response Schema below.
 
 ```
 curl -X GET "http://URL/tableNo?id=99"  
