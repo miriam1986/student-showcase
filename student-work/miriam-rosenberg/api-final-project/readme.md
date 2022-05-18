@@ -14,7 +14,7 @@ Below diagram illustartes the workflow from the order stage to pay stage.
 
 flowchart TD
  A[Open App and Log in] --> B[Select meal type]
-   B --> C(Patty)
+   B --> C[Select a patty meat type, quantity, weight, and cooking time]
    C -->|meat type, quantity, weight, cooking time| D[Select bun type]
    D --> E[Condiments]
    E -->|No| G[Select toppings]
