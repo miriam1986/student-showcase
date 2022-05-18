@@ -19,7 +19,7 @@ flowchart TD
    D --> E[Condiments]
    E -->|No| G{Do you want toppings?}
    E -->|Yes| F[Select condiments]
-   F --> G[Toppings]
+   F --> G{Do you want toppings?}
    G -->|No| I[Sides]
    G -->|Yes| H[Select toppings]
    H --> I[Sides]
