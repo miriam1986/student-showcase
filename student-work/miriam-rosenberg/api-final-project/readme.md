@@ -13,7 +13,7 @@ Below diagram illustartes the workflow from the order stage to pay stage.
 ```mermaid
 
 flowchart TD
- A[Open App and Log in] --> B(Select meal type)
+ A[Open App and Log in] --> B[Select meal type]
    B --> C(Patty)
    C -->|meat type, quantity, weight, cooking time| D[Select bun type]
    D --> E[Condiments]
