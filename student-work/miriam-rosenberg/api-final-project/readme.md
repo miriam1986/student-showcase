@@ -17,7 +17,7 @@ flowchart TD
    B --> C[Select a patty meat type, quantity, weight, and cooking time]
    C --> D[Select bun type]
    D --> E[Condiments]
-   E -->|No| G[Select toppings]
+   E -->|No| G{Do you want toppings?}
    E -->|Yes| F[Select condiments]
    F --> G[Toppings]
    G -->|No| I[Sides]
