@@ -25,7 +25,7 @@ flowchart TD
    H --> I[Sides]
    I -->|Yes| J[Select sides]
    I -->|No| K{Do you want a drink?}
-  J --> K[Drink]
+  J --> K{Do you want a drink?}
   K -->|Yes| L[Select drink type, size, ice]
   K -->|No| M[Order summary]
   L --> M[Order summary]
