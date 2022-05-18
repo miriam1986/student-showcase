@@ -22,7 +22,7 @@ flowchart TD
    F --> G{Do you want toppings?}
    G -->|No| I[Sides]
    G -->|Yes| H[Select toppings]
-   H --> I[Sides]
+   H --> I{Do you want sides?}
    I -->|Yes| J[Select sides]
    I -->|No| K{Do you want a drink?}
   J --> K{Do you want a drink?}
