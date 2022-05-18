@@ -16,7 +16,7 @@ flowchart TD
  A[Open App and Log in] --> B[Select meal type]
    B --> C[Select a patty meat type, quantity, weight, and cooking time]
    C --> D[Select bun type]
-   D --> E[Condiments]
+   D --> E{Do you want condiments?}
    E -->|No| G{Do you want toppings?}
    E -->|Yes| F[Select condiments]
    F --> G{Do you want toppings?}
